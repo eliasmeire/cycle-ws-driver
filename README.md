@@ -47,7 +47,7 @@ function main({DOM, ws}) {
         </ul>
         <form id="form" action="">
           <input id="message" type="text" placeholder="Type a message..." />
-          <input type="submit" id="button__send" value="Send" />
+          <input type="submit" value="Send" />
         </form>
       </div>
     )
