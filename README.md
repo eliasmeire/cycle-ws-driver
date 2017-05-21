@@ -31,7 +31,8 @@ Cycle.run(main, drivers);
 
 ```js
 function main({DOM, ws}) {
-  const messages$ = ws.scan((acc, m) => [...acc, m], []) // ---[]--['message 1']--['message 1', 'message 2']-->
+  const messages$ = ws.scan((acc, m) => [...acc, m], [])
+  // messages$: ---[]--['message 1']--['message 1', 'message 2']-->
   const formSubmit$ = DOM.select('#form').events('submit').do(e => e.preventDefault())
   const messageInput$ = DOM.select('#message').events('input').map(e => e.target.value)
   const sendMessage$ = formSubmit$
