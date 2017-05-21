@@ -1,0 +1,45 @@
+{
+  "name": "cycle-ws-driver",
+  "version": "1.0.0",
+  "description": "Cycle.js driver for WebSockets",
+  "main": "lib/webSocket.js",
+  "scripts": {
+    "build": "rollup -c",
+    "lint": "eslint src/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliasmeire/cycle-ws-driver.git"
+  },
+  "keywords": [
+    "cyclejs",
+    "websocket",
+    "driver"
+  ],
+  "author": "Elias Meire",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eliasmeire/cycle-ws-driver/issues"
+  },
+  "homepage": "https://github.com/eliasmeire/cycle-ws-driver#readme",
+  "devDependencies": {
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "rollup": "^0.41.6",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-commonjs": "^8.0.2",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rxjs": "^5.4.0"
+  },
+  "peerDependencies": {
+    "rxjs": "^5.4.0"
+  },
+  "dependencies": {
+    "@cycle/run": "^3.1.0"
+  }
+}
