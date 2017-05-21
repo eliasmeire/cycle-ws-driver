@@ -1,6 +1,6 @@
 {
   "name": "cycle-ws-driver",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Cycle.js Driver for using WebSockets",
   "main": "lib/webSocket.js",
   "scripts": {
