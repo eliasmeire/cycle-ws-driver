@@ -2,7 +2,7 @@
 
 A [Cycle.js](http://cycle.js.org) [Driver](http://cycle.js.org/drivers.html) for using
 [WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
- in the browser.
+ in the browser (RxJS).
 
 ```
 npm install --save cycle-ws-driver
